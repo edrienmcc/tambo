@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^public
+RewriteRule ^(home|course|category|comment|addannouncement|announcement|index|editcourse|addcategory|editcategory|login|addpublisher|editlecture|addcourse|user|edituser|sendinfo|editinfo)$ $1.php [NC,L]
